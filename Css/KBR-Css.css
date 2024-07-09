@@ -345,6 +345,7 @@ header {
     padding: 15px;
     font-size: 2em;
     font-weight: 400;
+    border-radius: 20px;
     color: #e6dc27;
     background: white;
 }
@@ -370,6 +371,7 @@ header {
     font-size: 3em;
     font-weight: 400;
     color: white;
+    border-radius: 20px;
     background: rgba(230, 220, 39, 0.6);
     transition: 3s;
     cursor: pointer;
@@ -488,6 +490,7 @@ header {
     padding: 15px;
     font-size: 2em;
     font-weight: 400;
+    border-radius: 20px;
     color: var(--primary);
     background: white;
 }
@@ -511,13 +514,14 @@ header {
     padding: 15px;
     font-size: 3em;
     font-weight: 400;
+    border-radius: 20px;
     color: white;
-    background: rgba(230, 220, 39, 0.6);
+    background: rgba(255, 0, 30, 0.6);
     transition: 3s;
 }
 
 .banner-2 .left .features .pricing ion-icon:hover {
-    background: rgba(230, 220, 39, 0.9);
+    background: rgba(255, 0, 0, 0.9);
 }
 
 .banner-2 .left .features .content h4 {
