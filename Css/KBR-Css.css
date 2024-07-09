@@ -421,7 +421,7 @@ header {
 .banner .right .description {
     padding: 30px 60px 0 0;
     color: white;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .banner .right .description li {
@@ -453,7 +453,7 @@ header {
     line-height: 1em;
     font-weight: 400;
     text-align: right;
-    margin-bottom: 30px;
+    margin-bottom: 55px;
     text-transform: uppercase;
 }
 
@@ -563,6 +563,7 @@ header {
 .banner-2 .right .description {
     padding: 30px 60px 0 0;
     color: white;
+    margin-right: 100px;
 }
 
 .banner-2 .right .description li {
@@ -599,7 +600,8 @@ header {
 }
 
 .banner-2 .right iframe {
-    max-width: 450px;
-    max-height: 270px;
+    max-width: 445px;
+    max-height: 250px;
     margin-bottom: 150px;
+    border-radius: 25px;
 }
