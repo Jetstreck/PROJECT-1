@@ -586,6 +586,7 @@ header {
 
 .banner-2 .right .description h4 ion-icon {
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .banner-2 .right .description p {
@@ -609,3 +610,150 @@ header {
     margin-bottom: 150px;
     border-radius: 25px;
 }
+
+.swiper .swiper-wrapper .swiper-slide .banner-3 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner-3 .left .features {
+    max-width: 600px;
+    margin-bottom: 80px;
+    margin-top: 230px;
+    padding-bottom: 20px;
+}
+
+.banner-3 .left .features .rating {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.banner-3 .left .features .rating .score {
+    padding: 15px;
+    font-size: 2em;
+    font-weight: 400;
+    border-radius: 20px;
+    color: var(--primary);
+    background: white;
+}
+
+.banner-3 .left .features .content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.banner-3 .left .features .pricing {
+    display: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner-3 .left .features .pricing ion-icon {
+    padding: 15px;
+    font-size: 3em;
+    font-weight: 400;
+    border-radius: 20px;
+    color: white;
+    background: rgba(255, 0, 30, 0.6);
+    transition: 3s;
+}
+
+.banner-3 .left .features .pricing ion-icon:hover {
+    background: rgba(255, 0, 0, 0.9);
+}
+
+.banner-3 .left .features .content h4 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.banner-3 .left .features .content span {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+}
+
+.banner-3 .left .features .content .subtitle {
+    color: var(--primary);
+}
+
+.banner-3 h1 {
+    color: white;
+    font-size: 4em;
+    letter-spacing: 15px;
+    line-height: 0.9;
+    z-index: 10;
+    text-transform: uppercase;
+    font-family: 'Winner Sans Cond Regular';
+}
+
+.swiper .swiper-wrapper .swiper-slide .banner-3 .right {
+    position: relative;
+    height: 100vh;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.banner-3 .right .description {
+    padding: 140px 60px 0 0;
+    color: white;
+    margin-right: 100px;
+}
+
+.banner-3 .right .description li {
+    list-style: none;
+}
+
+.banner-3 .right .description h4 {
+    display: inline-block;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-3 .right .description h4 ion-icon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.banner-3 .right .description p {
+    margin: 5px 0 25px 30px;
+    font-weight: 200;
+}
+
+.banner-3 .right h2 {
+    color: white;
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.banner-3 .right iframe {
+    max-width: 445px;
+    max-height: 250px;
+    margin-bottom: 80px;
+    border-radius: 25px;
+}
+
